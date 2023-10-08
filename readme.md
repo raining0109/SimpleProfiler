@@ -6,6 +6,7 @@
 ## 如何编译
 ```bash
 cd SimpleProfiler/
+cp -r $JAVA_HOME/include ./
 mkdir build
 cd build
 cmake ..
